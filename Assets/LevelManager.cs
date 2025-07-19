@@ -10,6 +10,10 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI timeText;
     [SerializeField] private TextMeshProUGUI[] scoreText;
     [SerializeField] private TextMeshProUGUI speedScoreText;
+    [SerializeField] private TextMeshProUGUI soundText;
+    [SerializeField] private AudioSource source;
+    [SerializeField] private AudioSource vfxSound;
+    [SerializeField] private TextMeshProUGUI vfxText;
     private int time;
     [SerializeField]
     private int score;
@@ -52,6 +56,7 @@ public class LevelManager : MonoBehaviour
         surfaceEffector2D = FindAnyObjectByType<SurfaceEffector2D>();
         crash = FindAnyObjectByType<Crash>();
         finish = FindAnyObjectByType<Finish>();
+        soundText.text = "Sound: OFF";
     }
 
 
@@ -123,6 +128,40 @@ public class LevelManager : MonoBehaviour
     {
         
         speedScoreText.text = "Speed: " + surfaceEffector2D.speed; // Display speed with 2 decimal places
+    }
+
+    public void SoundEnable()
+    {
+        if(source.mute == true)
+        {
+            source.mute = false;
+            vfxSound.mute = false;
+            soundText.text = "Sound: ON"; // Update the text to indicate sound is on
+        }
+        else
+        {
+            source.mute = true;
+            vfxSound.mute = true;
+            soundText.text = "Sound: OFF"; // Update the text to indicate sound is off
+        }   
+       
+    }
+
+    public void SoundEffect()
+    {
+        if (vfxSound.mute == true)
+        {
+            
+            vfxSound.mute = false;
+            vfxText.text = "Sound Effect: ON"; // Update the text to indicate sound is on
+        }
+        else if(vfxSound.mute == false)
+        {
+            vfxSound.mute = true;
+
+            vfxText.text = "Sound Effect: OFF"; // Update the text to indicate sound is off
+        }
+
     }
 
 }
