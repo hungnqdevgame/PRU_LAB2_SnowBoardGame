@@ -8,12 +8,13 @@ public class Crash : MonoBehaviour
     [SerializeField] GameObject gameOverUI;
     [SerializeField] GameObject[] hearts;
     [SerializeField] int health = 3;
+    CircleCollider2D circleCollider;
 
     private Vector3 lastTriggerPosition;
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Ground")
+        if (other.tag == "Ground" )
         {
             health--; // Decrease health by 1
             UpdateHearts();
@@ -27,7 +28,7 @@ public class Crash : MonoBehaviour
                 // Optionally, you can offset the respawn position to avoid immediate retrigger
                 Vector3 respawnPosition = lastTriggerPosition + Vector3.up * 4f;
                 transform.position = respawnPosition;
-                transform.rotation = Quaternion.identity; // Reset rotation
+               
 
 
                 // Optionally, reset velocity if using Rigidbody2D
@@ -38,7 +39,22 @@ public class Crash : MonoBehaviour
                     rb.angularVelocity = 0f;
                 }
             }
-            else
+            else if (health == 0)
+            {
+                ShowGameOver();
+            }
+        }
+        else if(other.tag == "Enemy")
+        {
+            if(this.gameObject.CompareTag("Chan"))
+            {
+                return; // If the player is Chan, do not take damage from enemies
+            }
+            Debug.Log("Player hit an enemy! Health: " + health);    
+            Destroy(other.gameObject); // Destroy the enemy
+            health=health-1; // Decrease health by 1 when hitting an enemy
+            UpdateHearts();
+            if (health == 0)
             {
                 ShowGameOver();
             }

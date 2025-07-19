@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\crash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|D:\\Unity_Project\\SnowBoard Game\\assets\\script\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|D:\\Unity_Project\\SnowBoard Game\\assets\\script\\finish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\finish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|D:\\Unity_Project\\SnowBoard Game\\assets\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|solutionrelative:assets\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +23,12 @@
       "RelativeMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|d:\\unity_project\\snowboard game\\assets\\script\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|d:\\unity_project\\snowboard game\\assets\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|solutionrelative:assets\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|D:\\Unity_Project\\SnowBoard Game\\assets\\script\\buff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\buff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|D:\\Unity_Project\\SnowBoard Game\\assets\\script\\finish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\finish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|D:\\Unity_Project\\SnowBoard Game\\assets\\script\\spawnenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBA1FBA7-21AA-D9D3-F55C-E25A4B9D2916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\spawnenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,20 +40,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Buff.cs",
-              "DocumentMoniker": "D:\\Unity_Project\\SnowBoard Game\\Assets\\Script\\Buff.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Buff.cs",
-              "ToolTip": "D:\\Unity_Project\\SnowBoard Game\\Assets\\Script\\Buff.cs",
-              "RelativeToolTip": "Assets\\Script\\Buff.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T13:40:12.02Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -76,41 +66,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "EnemyMovement.cs",
+              "DocumentMoniker": "D:\\Unity_Project\\SnowBoard Game\\Assets\\EnemyMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\EnemyMovement.cs",
+              "ToolTip": "D:\\Unity_Project\\SnowBoard Game\\Assets\\EnemyMovement.cs",
+              "RelativeToolTip": "Assets\\EnemyMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T16:34:54.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SpawnEnemy.cs",
+              "DocumentMoniker": "D:\\Unity_Project\\SnowBoard Game\\Assets\\Script\\SpawnEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SpawnEnemy.cs",
+              "ToolTip": "D:\\Unity_Project\\SnowBoard Game\\Assets\\Script\\SpawnEnemy.cs",
+              "RelativeToolTip": "Assets\\Script\\SpawnEnemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T14:20:12.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Health.cs",
               "DocumentMoniker": "D:\\Unity_Project\\SnowBoard Game\\Assets\\Script\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Health.cs",
               "ToolTip": "D:\\Unity_Project\\SnowBoard Game\\Assets\\Script\\Health.cs",
               "RelativeToolTip": "Assets\\Script\\Health.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-11T02:15:04.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Finish.cs",
               "DocumentMoniker": "D:\\Unity_Project\\SnowBoard Game\\Assets\\Script\\Finish.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Finish.cs",
               "ToolTip": "D:\\Unity_Project\\SnowBoard Game\\Assets\\Script\\Finish.cs",
               "RelativeToolTip": "Assets\\Script\\Finish.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T08:36:17.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LevelManager.cs",
-              "DocumentMoniker": "D:\\Unity_Project\\SnowBoard Game\\Assets\\LevelManager.cs",
-              "RelativeDocumentMoniker": "Assets\\LevelManager.cs",
-              "ToolTip": "D:\\Unity_Project\\SnowBoard Game\\Assets\\LevelManager.cs",
-              "RelativeToolTip": "Assets\\LevelManager.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAA/wGgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T02:48:03.685Z",
               "EditorCaption": ""
             },
             {
@@ -121,22 +124,35 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Crash.cs",
               "ToolTip": "D:\\Unity_Project\\SnowBoard Game\\Assets\\Script\\Crash.cs",
               "RelativeToolTip": "Assets\\Script\\Crash.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAABLAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvy4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T08:43:56.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Unity_Project\\SnowBoard Game\\Assets\\Script\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
               "ToolTip": "D:\\Unity_Project\\SnowBoard Game\\Assets\\Script\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwDMAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwEQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T07:28:09.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "D:\\Unity_Project\\SnowBoard Game\\Assets\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\LevelManager.cs",
+              "ToolTip": "D:\\Unity_Project\\SnowBoard Game\\Assets\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\LevelManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T02:48:03.685Z",
               "EditorCaption": ""
             }
           ]

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ground
   - Buff
+  - Chan
+  - Head
+  - Enemy
   layers:
   - Default
   - TransparentFX

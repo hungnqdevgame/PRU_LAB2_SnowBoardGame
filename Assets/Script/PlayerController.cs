@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,7 +14,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float baseSpeed = 10f;
     Rigidbody2D rb2d;
     SurfaceEffector2D surfaceEffector2D;
-   
+    [SerializeField] bool isJump ; // Variable to track if the player has jumped  
+    [SerializeField] AudioSource soundEffect;
+
+    public void SetJump()
+    {
+          isJump = true;
+    }
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -27,6 +34,7 @@ public class PlayerController : MonoBehaviour
     {
         RotatePlayer();
         RespondToBoost();
+        Jump();
     }
 
     void RespondToBoost()
@@ -57,7 +65,27 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-  
+    private void Jump()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {   
 
+            
+                rb2d.AddForce(Vector2.up * 10f, ForceMode2D.Impulse);
+                soundEffect.mute = true; // Unmute sound effect
+
+
+        }
+               
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Ground")
+        {
+          isJump = true; // Allow jumping again when touching the ground
+        }
+        
+    }
 
 }
